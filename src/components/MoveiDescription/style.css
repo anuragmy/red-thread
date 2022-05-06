@@ -1,0 +1,48 @@
+.favourite {
+    padding: 16px;
+    background-color: #746A64;
+    border: none;
+    color: white;
+    cursor: pointer;
+   
+}
+
+.description {
+    display: flex;
+    
+    
+}
+
+.moviedata {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+}
+
+.details {
+    margin: 20px 0;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+}
+p {
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
