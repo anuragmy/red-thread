@@ -4,7 +4,8 @@ to run this project
 
 1. clone 
 2. <code> npm i </code>
-3. <code> npm start </code>
+3. add your API key in .env file
+4. <code> npm start </code>
 
 ![image](https://user-images.githubusercontent.com/24504245/167077308-ab572cb6-b5fa-4a67-942c-561190d78e85.png)
 
