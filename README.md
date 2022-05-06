@@ -1,3 +1,7 @@
-# react-lsq1uf
+# Movie App
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-lsq1uf)
+to run this project
+
+1. clone 
+2. <code> npm i </code>
+3. <code> npm start </code>
