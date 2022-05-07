@@ -1,19 +1,18 @@
 import React from "react";
-import { getImage } from "../constants";
+import { getImage } from "../../constants";
 
+const imageStyle = { width: "100%", maxHeight: "100%" };
 const movieStyle = {
   display: "flex",
-  jusifyContent: "center",
+  justifyContent: "center",
   alignItems: "center",
   cursor: "pointer",
 };
 
-const imageStyle = { width: "100%", maxHeight: "100%" };
-
 const MovieCard = ({ imagePath, title, data, handleMovieDetails }) => (
   <div style={movieStyle}>
     <img
-      className="poster"
+      className="image"
       src={getImage("original", imagePath)}
       alt={title}
       onClick={() => handleMovieDetails(data)}

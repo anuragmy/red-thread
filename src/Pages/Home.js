@@ -1,10 +1,10 @@
 import React from "react";
 
 import { Container, Grid } from "@mui/material";
-import MovieCard from "../components/MovieCard";
+import MovieCard from "../components/MovieCard/MovieCard";
 import axios from "axios";
 import { topRatedUrl } from "../constants";
-import MovieDescription from "../components/MoveiDescription/MovieDescription";
+import MovieDescription from "../components/MovieDescription/MovieDescription";
 
 const Home = () => {
   const [data, setData] = React.useState([]);
